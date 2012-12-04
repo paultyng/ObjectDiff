@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>1.0.0-alpha0</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <projectUrl>https://github.com/paultyng/ObjectDiff</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>Initial version - alpha.</releaseNotes>
+    <copyright>Copyright 2012</copyright>
+    <tags>DataAnnotations Diff Compare</tags>
+  </metadata>
+</package>
