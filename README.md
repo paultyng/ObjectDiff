@@ -55,6 +55,7 @@ A few things to note:
 * For lists, object equality uses `Object.Equals` for comparison
 * Multiline text is wrapped for formatting purposes
 * Objects do not need to be the same runtime type, properties are compared based on naming
+* In the readable diff, `null` and `String.Empty` are effectively the same
 
 ## On NuGet
 
