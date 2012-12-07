@@ -14,11 +14,17 @@ namespace ObjectDiff
         public static string ReadableDiff<TAfter, TBefore>(this TAfter after, TBefore before)
         {
             var sb = new StringBuilder();
+
+            ReadableDiff(after, before, sb);
+
+            return sb.ToString();
+        }
+
+        public static void ReadableDiff<TAfter, TBefore>(this TAfter after, TBefore before, StringBuilder sb)
+        {
             var diff = DiffExtensions.Diff(after, before);
 
             ReadableDiffInternal(sb, diff);
-
-            return sb.ToString();
         }
 
         static bool ReadablePropertyFilter(Tuple<Stack<DiffMetadata>, DiffMetadata> property)

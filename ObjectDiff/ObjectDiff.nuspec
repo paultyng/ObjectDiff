@@ -2,14 +2,16 @@
 <package >
   <metadata>
     <id>$id$</id>
-    <version>1.0.0-alpha0</version>
+    <version>1.0.0-alpha1</version>
     <title>$title$</title>
     <authors>$author$</authors>
     <owners>$author$</owners>
     <projectUrl>https://github.com/paultyng/ObjectDiff</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
-    <releaseNotes>Initial version - alpha.</releaseNotes>
+    <releaseNotes>
+        Added overload for ReadableDiff that takes StringBuilder instance.
+    </releaseNotes>
     <copyright>Copyright 2012</copyright>
     <tags>DataAnnotations Diff Compare</tags>
   </metadata>
